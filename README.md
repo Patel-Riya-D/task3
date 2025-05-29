@@ -1,1 +1,62 @@
-# task3
+# Task 3 - Linear Regression
+
+This project showcases a complete linear regression pipeline using Python and essential data science libraries. The notebook walks through data preprocessing, model training, evaluation, and result visualization, making it a comprehensive example for beginners and intermediate users alike.
+
+## 📘 Project Overview
+
+The notebook performs the following steps:
+
+1. **Import Libraries**  
+   Essential libraries such as `pandas`, `numpy`, `matplotlib`, `seaborn`, and `sklearn` are imported.
+
+2. **Load the Dataset**  
+   A dataset is loaded into a pandas DataFrame for analysis.
+
+3. **Preprocess the Data**  
+   This may include handling missing values, converting data types, or filtering.
+
+4. **Select Feature and Target Variable**  
+   Independent (X) and dependent (y) variables are defined for regression.
+
+5. **Split Data into Train/Test Sets**  
+   The dataset is split into training and testing sets using `train_test_split`.
+
+6. **Train the Linear Regression Model**  
+   A linear regression model is instantiated and trained on the training data.
+
+7. **Evaluate the Model**  
+   Key metrics such as:
+   - Mean Absolute Error (MAE)
+   - Mean Squared Error (MSE)
+   - Root Mean Squared Error (RMSE)
+   - R² Score
+   - Adjusted R² Score  
+   are computed to evaluate performance.
+
+8. **Visualize the Regression Line**  
+   Scatter plots and regression lines are plotted using `matplotlib` and `seaborn`.
+
+9. **Interpret Model Coefficients**  
+   Model coefficients and intercept are interpreted in context of the data.
+
+10. **Residual Plot**  
+    A residuals vs fitted plot is drawn to assess model assumptions.
+
+11. **Histogram of Residuals**  
+    Distribution of residuals is visualized for checking normality.
+
+12. **Actual vs Predicted Plot**  
+    A scatter plot compares actual and predicted values.
+
+---
+
+## 📦 Technologies Used
+
+```python
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns

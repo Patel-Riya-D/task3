@@ -55,7 +55,10 @@ The notebook performs the following steps:
 14. **Histogram of Residuals**  
     Distribution of residuals is visualized for checking normality.
 
-15. **Actual vs Predicted Plot**  
+    ![image](https://github.com/user-attachments/assets/2426adaa-79f0-402b-bfde-566bdad1ab27)
+
+
+16. **Actual vs Predicted Plot**  
     A scatter plot compares actual and predicted values.
 
 ---

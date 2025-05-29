@@ -49,10 +49,13 @@ The notebook performs the following steps:
 12. **Residual Plot**  
     A residuals vs fitted plot is drawn to assess model assumptions.
 
-13. **Histogram of Residuals**  
+    ![image](https://github.com/user-attachments/assets/95deb3a1-e9c2-470a-a01f-637f0ae7f0ef)
+
+
+14. **Histogram of Residuals**  
     Distribution of residuals is visualized for checking normality.
 
-14. **Actual vs Predicted Plot**  
+15. **Actual vs Predicted Plot**  
     A scatter plot compares actual and predicted values.
 
 ---

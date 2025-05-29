@@ -61,6 +61,9 @@ The notebook performs the following steps:
 16. **Actual vs Predicted Plot**  
     A scatter plot compares actual and predicted values.
 
+    ![image](https://github.com/user-attachments/assets/406dce8f-6dad-45e6-8c89-250cd64315c0)
+
+
 ---
 
 ## 📦 Technologies Used

@@ -10,7 +10,7 @@ The notebook performs the following steps:
    Essential libraries such as `pandas`, `numpy`, `matplotlib`, `seaborn`, and `sklearn` are imported.
 
 2. **Load the Dataset**  
-   A dataset is loaded into a pandas DataFrame for analysis.
+   A dataset is loaded into a pandas DataFrame for analysis. (House price prediction)
 
 3. **Preprocess the Data**  
    This may include handling missing values, converting data types, or filtering.

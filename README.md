@@ -40,16 +40,19 @@ The notebook performs the following steps:
 9. **Visualize the Regression Line**  
    Scatter plots and regression lines are plotted using `matplotlib` and `seaborn`.
 
-10. **Interpret Model Coefficients**  
+   ![image](https://github.com/user-attachments/assets/8e159976-42d7-4824-9810-6398e2a50fb9)
+
+
+11. **Interpret Model Coefficients**  
    Model coefficients and intercept are interpreted in context of the data.
 
-11. **Residual Plot**  
+12. **Residual Plot**  
     A residuals vs fitted plot is drawn to assess model assumptions.
 
-12. **Histogram of Residuals**  
+13. **Histogram of Residuals**  
     Distribution of residuals is visualized for checking normality.
 
-13. **Actual vs Predicted Plot**  
+14. **Actual vs Predicted Plot**  
     A scatter plot compares actual and predicted values.
 
 ---

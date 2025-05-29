@@ -14,17 +14,21 @@ The notebook performs the following steps:
 
 3. **Preprocess the Data**  
    This may include handling missing values, converting data types, or filtering.
+   correlation matrix :
 
-4. **Select Feature and Target Variable**  
+   ![image](https://github.com/user-attachments/assets/52d15f9a-c4b5-43ba-9f59-a2461639ebaf)
+
+
+5. **Select Feature and Target Variable**  
    Independent (X) and dependent (y) variables are defined for regression.
 
-5. **Split Data into Train/Test Sets**  
+6. **Split Data into Train/Test Sets**  
    The dataset is split into training and testing sets using `train_test_split`.
 
-6. **Train the Linear Regression Model**  
+7. **Train the Linear Regression Model**  
    A linear regression model is instantiated and trained on the training data.
 
-7. **Evaluate the Model**  
+8. **Evaluate the Model**  
    Key metrics such as:
    - Mean Absolute Error (MAE)
    - Mean Squared Error (MSE)
@@ -33,19 +37,19 @@ The notebook performs the following steps:
    - Adjusted R² Score  
    are computed to evaluate performance.
 
-8. **Visualize the Regression Line**  
+9. **Visualize the Regression Line**  
    Scatter plots and regression lines are plotted using `matplotlib` and `seaborn`.
 
-9. **Interpret Model Coefficients**  
+10. **Interpret Model Coefficients**  
    Model coefficients and intercept are interpreted in context of the data.
 
-10. **Residual Plot**  
+11. **Residual Plot**  
     A residuals vs fitted plot is drawn to assess model assumptions.
 
-11. **Histogram of Residuals**  
+12. **Histogram of Residuals**  
     Distribution of residuals is visualized for checking normality.
 
-12. **Actual vs Predicted Plot**  
+13. **Actual vs Predicted Plot**  
     A scatter plot compares actual and predicted values.
 
 ---
